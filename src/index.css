@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -49,6 +50,8 @@ body {
 	align-items: center;
 	padding: 2px;
 	cursor: pointer;
+	
+	
 	border-radius: 10px;
 	border: 1px solid var(--border);
 	width: 100%;
