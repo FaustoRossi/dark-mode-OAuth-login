@@ -8,7 +8,6 @@ function App() {
 	const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
 
 	const toggleTheme = () => {
-    
 		const newTheme = theme === "light" ? "dark" : "light";
 		setTheme(newTheme);
 	};
@@ -19,8 +18,8 @@ function App() {
 				<h1>Login</h1>
 				<div className="container">
 					<div className="top">
-            <p>Continue with Google</p>
 						<FcGoogle size={36} />
+						<p>Continue With Google</p>
 					</div>
 					<p className="divider">
 						<span>Or</span>
@@ -46,7 +45,7 @@ function App() {
 					</div>
 					<p className="create">Create Account</p>
 				</div>
-				<div className="theme-toggle" >
+				<div className="theme-toggle">
 					<h2>Light Theme</h2>
 					<BsToggleOn size={32} onClick={toggleTheme} />
 				</div>
