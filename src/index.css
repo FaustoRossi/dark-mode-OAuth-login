@@ -133,7 +133,7 @@ button {
 
 @media screen and (max-width: 478px) {
 	.login {
-		width: 95px;
+		width: 90%;
 	}
 }
 .app {
