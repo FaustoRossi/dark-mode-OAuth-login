@@ -4,13 +4,13 @@ import Login from "./components/Login";
 import "./index.css";
 
 function App() {
-	const { isAuthenticated } = useAuth0;
+	const { isAuthenticated} = useAuth0();
 
 	return (
 		<>
-		{	isAuthenticated ?
-			<Profile /> :
-			<Login />}
+			{isAuthenticated ? <Profile /> : <Login />}
+
+		
 		</>
 	);
 }

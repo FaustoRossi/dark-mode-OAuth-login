@@ -50,8 +50,7 @@ body {
 	align-items: center;
 	padding: 2px;
 	cursor: pointer;
-	
-	
+
 	border-radius: 10px;
 	border: 1px solid var(--border);
 	width: 100%;
@@ -165,4 +164,22 @@ h2 {
 	text-align: center;
 	font-size: 1rem;
 	cursor: pointer;
+}
+.img {
+	margin: 4rem;
+	border-radius: 1rem;
+}
+
+.profile,
+.img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.profile p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans;
+	font-weight: 600;
+	margin: 1.5rem;
 }
